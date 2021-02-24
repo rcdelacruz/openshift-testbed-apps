@@ -13,5 +13,5 @@ spec:
         app: airline-prediction-stream
     spec:
       containers:
-      - name: airline-prediction-stream
-        image: ably77/airlineprediction-stream:v2
+        - name: airline-prediction-stream
+          image: rcdelacruz/airlineprediction-stream:v2

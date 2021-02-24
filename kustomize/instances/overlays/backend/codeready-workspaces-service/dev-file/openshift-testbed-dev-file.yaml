@@ -4,11 +4,11 @@ metadata:
 projects:
   - name: openshift-testbed
     source:
-      location: 'https://github.com/ably77/openshift-testbed'
+      location: "https://github.com/rcdelacruz/openshift-testbed"
       type: git
   - name: openshift-testbed-apps
     source:
-      location: 'https://github.com/ably77/openshift-testbed-apps'
+      location: "https://github.com/rcdelacruz/openshift-testbed-apps"
       type: git
 components:
   - id: redhat/vscode-openshift-connector/latest

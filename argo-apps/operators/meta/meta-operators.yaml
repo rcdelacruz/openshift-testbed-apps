@@ -4,11 +4,11 @@ metadata:
   name: meta-operators
   namespace: argocd
   finalizers:
-  - resources-finalizer.argocd.argoproj.io
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: main
   source:
-    repoURL: https://github.com/ably77/openshift-testbed-apps
+    repoURL: https://github.com/rcdelacruz/openshift-testbed-apps
     targetRevision: HEAD
     path: argo-apps/operators
   destination:

@@ -8,7 +8,7 @@ metadata:
 spec:
   project: main
   source:
-    repoURL: https://github.com/ably77/openshift-testbed-apps
+    repoURL: https://github.com/rcdelacruz/openshift-testbed-apps
     targetRevision: HEAD
     path: kustomize/instances/overlays/cluster-config
   destination:
